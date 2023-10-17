@@ -11,7 +11,7 @@ import SwiftUI
 struct Amazon_localApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
         }
     }
 }

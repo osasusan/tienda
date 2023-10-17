@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		480A60942ADD716A00692233 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480A60932ADD716A00692233 /* LoginViewModel.swift */; };
+		480A60962ADD72C200692233 /* User Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480A60952ADD72C200692233 /* User Model.swift */; };
+		480A60982ADE998400692233 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480A60972ADE998400692233 /* Alert.swift */; };
 		48414D6B2ACF6939006D7815 /* Amazon_localApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48414D6A2ACF6939006D7815 /* Amazon_localApp.swift */; };
-		48414D6D2ACF6939006D7815 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48414D6C2ACF6939006D7815 /* ContentView.swift */; };
+		48414D6D2ACF6939006D7815 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48414D6C2ACF6939006D7815 /* LoginView.swift */; };
 		48414D6F2ACF693B006D7815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48414D6E2ACF693B006D7815 /* Assets.xcassets */; };
 		48414D722ACF693B006D7815 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48414D712ACF693B006D7815 /* Preview Assets.xcassets */; };
 		48414D7C2ACF693B006D7815 /* Amazon_localTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48414D7B2ACF693B006D7815 /* Amazon_localTests.swift */; };
@@ -34,9 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		480A60932ADD716A00692233 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		480A60952ADD72C200692233 /* User Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User Model.swift"; sourceTree = "<group>"; };
+		480A60972ADE998400692233 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		48414D672ACF6939006D7815 /* Amazon local.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amazon local.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48414D6A2ACF6939006D7815 /* Amazon_localApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amazon_localApp.swift; sourceTree = "<group>"; };
-		48414D6C2ACF6939006D7815 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		48414D6C2ACF6939006D7815 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		48414D6E2ACF693B006D7815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48414D712ACF693B006D7815 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		48414D772ACF693B006D7815 /* Amazon localTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amazon localTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		480A60992ADED75800692233 /* Loging */ = {
+			isa = PBXGroup;
+			children = (
+				48414D6C2ACF6939006D7815 /* LoginView.swift */,
+				480A60932ADD716A00692233 /* LoginViewModel.swift */,
+			);
+			path = Loging;
+			sourceTree = "<group>";
+		};
 		48414D5E2ACF6939006D7815 = {
 			isa = PBXGroup;
 			children = (
@@ -95,9 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				48414D6A2ACF6939006D7815 /* Amazon_localApp.swift */,
-				48414D6C2ACF6939006D7815 /* ContentView.swift */,
 				48414D6E2ACF693B006D7815 /* Assets.xcassets */,
+				480A60992ADED75800692233 /* Loging */,
 				48414D702ACF693B006D7815 /* Preview Content */,
+				480A60952ADD72C200692233 /* User Model.swift */,
+				480A60972ADE998400692233 /* Alert.swift */,
 			);
 			path = "Amazon local";
 			sourceTree = "<group>";
@@ -257,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48414D6D2ACF6939006D7815 /* ContentView.swift in Sources */,
+				48414D6D2ACF6939006D7815 /* LoginView.swift in Sources */,
 				48414D6B2ACF6939006D7815 /* Amazon_localApp.swift in Sources */,
+				480A60942ADD716A00692233 /* LoginViewModel.swift in Sources */,
+				480A60982ADE998400692233 /* Alert.swift in Sources */,
+				480A60962ADD72C200692233 /* User Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +450,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +480,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

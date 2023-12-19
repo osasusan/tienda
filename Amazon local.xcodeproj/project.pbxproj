@@ -10,6 +10,7 @@
 		480A60942ADD716A00692233 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480A60932ADD716A00692233 /* LoginViewModel.swift */; };
 		480A60962ADD72C200692233 /* User Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480A60952ADD72C200692233 /* User Model.swift */; };
 		480A60982ADE998400692233 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480A60972ADE998400692233 /* Alert.swift */; };
+		480A609B2ADF0B9C00692233 /* LoginViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480A609A2ADF0B9C00692233 /* LoginViewExtension.swift */; };
 		48414D6B2ACF6939006D7815 /* Amazon_localApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48414D6A2ACF6939006D7815 /* Amazon_localApp.swift */; };
 		48414D6D2ACF6939006D7815 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48414D6C2ACF6939006D7815 /* LoginView.swift */; };
 		48414D6F2ACF693B006D7815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48414D6E2ACF693B006D7815 /* Assets.xcassets */; };
@@ -17,6 +18,8 @@
 		48414D7C2ACF693B006D7815 /* Amazon_localTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48414D7B2ACF693B006D7815 /* Amazon_localTests.swift */; };
 		48414D862ACF693B006D7815 /* Amazon_localUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48414D852ACF693B006D7815 /* Amazon_localUITests.swift */; };
 		48414D882ACF693B006D7815 /* Amazon_localUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48414D872ACF693B006D7815 /* Amazon_localUITestsLaunchTests.swift */; };
+		48AD35B82AE032F900DDCF4F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48AD35B72AE032F900DDCF4F /* HomeView.swift */; };
+		48D18E542AEABB90008FE0B0 /* customViewRectaguLr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D18E532AEABB90008FE0B0 /* customViewRectaguLr.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,7 @@
 		480A60932ADD716A00692233 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		480A60952ADD72C200692233 /* User Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User Model.swift"; sourceTree = "<group>"; };
 		480A60972ADE998400692233 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		480A609A2ADF0B9C00692233 /* LoginViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewExtension.swift; sourceTree = "<group>"; };
 		48414D672ACF6939006D7815 /* Amazon local.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amazon local.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48414D6A2ACF6939006D7815 /* Amazon_localApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amazon_localApp.swift; sourceTree = "<group>"; };
 		48414D6C2ACF6939006D7815 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -50,6 +54,8 @@
 		48414D812ACF693B006D7815 /* Amazon localUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amazon localUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48414D852ACF693B006D7815 /* Amazon_localUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amazon_localUITests.swift; sourceTree = "<group>"; };
 		48414D872ACF693B006D7815 /* Amazon_localUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amazon_localUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48AD35B72AE032F900DDCF4F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		48D18E532AEABB90008FE0B0 /* customViewRectaguLr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customViewRectaguLr.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 			children = (
 				48414D6C2ACF6939006D7815 /* LoginView.swift */,
 				480A60932ADD716A00692233 /* LoginViewModel.swift */,
+				480A609A2ADF0B9C00692233 /* LoginViewExtension.swift */,
 			);
 			path = Loging;
 			sourceTree = "<group>";
@@ -111,10 +118,12 @@
 			children = (
 				48414D6A2ACF6939006D7815 /* Amazon_localApp.swift */,
 				48414D6E2ACF693B006D7815 /* Assets.xcassets */,
+				48AD35B62AE028C600DDCF4F /* Home */,
 				480A60992ADED75800692233 /* Loging */,
 				48414D702ACF693B006D7815 /* Preview Content */,
 				480A60952ADD72C200692233 /* User Model.swift */,
 				480A60972ADE998400692233 /* Alert.swift */,
+				48D18E532AEABB90008FE0B0 /* customViewRectaguLr.swift */,
 			);
 			path = "Amazon local";
 			sourceTree = "<group>";
@@ -142,6 +151,14 @@
 				48414D872ACF693B006D7815 /* Amazon_localUITestsLaunchTests.swift */,
 			);
 			path = "Amazon localUITests";
+			sourceTree = "<group>";
+		};
+		48AD35B62AE028C600DDCF4F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				48AD35B72AE032F900DDCF4F /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				480A609B2ADF0B9C00692233 /* LoginViewExtension.swift in Sources */,
+				48AD35B82AE032F900DDCF4F /* HomeView.swift in Sources */,
 				48414D6D2ACF6939006D7815 /* LoginView.swift in Sources */,
+				48D18E542AEABB90008FE0B0 /* customViewRectaguLr.swift in Sources */,
 				48414D6B2ACF6939006D7815 /* Amazon_localApp.swift in Sources */,
 				480A60942ADD716A00692233 /* LoginViewModel.swift in Sources */,
 				480A60982ADE998400692233 /* Alert.swift in Sources */,

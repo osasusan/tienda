@@ -7,38 +7,30 @@
 
 import SwiftUI
 
+
 struct LoginView: View {
  @ObservedObject var viewModel = LoginViewModel()
-    
     var body: some View {
       
         VStack {
-            Image(systemName: "trash.square.fill")
-                .scaleEffect(x:5,y: 5)
-                .frame(width: 100,height: 100)
-                .foregroundStyle(.tint)
-            Text("Ozazon")
-            
+            customViewRectaguLr(image: "busqueda.icon")
         }
         VStack{
-            TextField("Username", text: $viewModel.userName)
-                .padding()
-                .background(Color.gray)
-                .clipShape(RoundedRectangle(cornerRadius: 35))
-            TextField("Pass", text: $viewModel.pass)
-                .padding()
-                .background(Color.gray)
-                .clipShape(RoundedRectangle(cornerRadius: 35))
+            textFileCus(text1 : "Username", text2: $viewModel.userName)
+            textFileCus(text1 : "pass", text2: $viewModel.pass)
+           
             Button("Login") {
                 if viewModel.userName != "" && viewModel.pass != ""{
-                    print("hola")
-                    
-                    
-                }else {
+                    viewModel.todoBien()
+                }else{
                     viewModel.todoMal()
                 }
             }
-           
+            VStack{
+                Text(viewModel.toSuccess)
+                    .font(.largeTitle)
+                  
+            }
             .padding()
             Spacer()
             
@@ -51,6 +43,7 @@ struct LoginView: View {
 #Preview {
     LoginView()
 }
+
 
 //struct LoginView_Previews: PreviewProvider {
 //    static var previews: some View {
